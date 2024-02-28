@@ -125,8 +125,11 @@ button {
 
     .mobile-no-scroll {
         position: relative;
-        right: 400px;
+        top: 0;
+        right: 600px;
         bottom: 0px;
+        left: 600px;
+
     }
 
 }
