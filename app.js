@@ -3,10 +3,10 @@ let intentos = 0;
 let listaNumerosSorteados = [];
 let numeroMaximo = 10;
 
-// Deshabilitar el desplazamiento vertical en dispositivos móviles
+// Agregar clase al body en dispositivos móviles
 document.addEventListener('DOMContentLoaded', function () {
     if (window.matchMedia("(max-width: 767px)").matches) {
-        document.body.style.overflowY = 'hidden';
+        document.body.classList.add('mobile-no-scroll');
     }
 });
 

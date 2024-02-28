@@ -110,7 +110,7 @@ button {
     font-weight: 400;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 767px) {
 
     .container__informaciones {
         flex: 1;
@@ -121,6 +121,10 @@ button {
         font-family: 'Chakra Petch', sans-serif;
         font-size: 72px;
         padding-bottom: 0;
+    }
+
+    .mobile-no-scroll {
+        overflow-y: hidden;
     }
 
 }
