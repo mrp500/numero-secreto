@@ -123,12 +123,4 @@ button {
         padding-bottom: 0;
     }
 
-    .mobile-no-scroll {
-        background: linear-gradient(#1354A5 0%, #041832 33.33%, #041832 66.67%, #01080E 100%);
-        height: 100vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
 }
