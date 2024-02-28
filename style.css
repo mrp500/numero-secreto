@@ -123,4 +123,10 @@ button {
         padding-bottom: 0;
     }
 
+    .mobile-no-scroll {
+        position: relative;
+        right: 400px;
+        bottom: 0px;
+    }
+
 }
