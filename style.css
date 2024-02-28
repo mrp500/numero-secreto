@@ -123,11 +123,4 @@ button {
         padding-bottom: 0;
     }
 
-    .mobile-no-scroll {
-        position: static;
-        height: auto;
-        width: auto;
-        background: linear-gradient(#1354A5 0%, #041832 33.33%, #041832 66.67%, #01080E 100%);
-    }
-
 }
