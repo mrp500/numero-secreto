@@ -3,11 +3,27 @@ let intentos = 0;
 let listaNumerosSorteados = [];
 let numeroMaximo = 10;
 
-// Agregar clase al body en dispositivos móviles
+// Capturar evento de desplazamiento y evitar el desplazamiento horizontal
 document.addEventListener('DOMContentLoaded', function () {
     if (window.matchMedia("(max-width: 767px)").matches) {
         document.body.classList.add('mobile-no-scroll');
     }
+
+    var xStart, yStart;
+
+    document.addEventListener('touchstart', function (e) {
+        xStart = e.touches[0].clientX;
+        yStart = e.touches[0].clientY;
+    });
+
+    document.addEventListener('touchmove', function (e) {
+        var xMovement = Math.abs(e.touches[0].clientX - xStart);
+        var yMovement = Math.abs(e.touches[0].clientY - yStart);
+
+        if (xMovement > yMovement) {
+            e.preventDefault();
+        }
+    });
 });
 
 
