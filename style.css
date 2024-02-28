@@ -124,12 +124,7 @@ button {
     }
 
     .mobile-no-scroll {
-        position: relative;
-        top: 0;
-        right: 600px;
-        bottom: 0px;
-        left: 600px;
-
+        position: static;
     }
 
 }
