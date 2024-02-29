@@ -94,5 +94,3 @@ function reiniciarJuego() {
 }
 
 condicionesIniciales();
-
-//Warp...
